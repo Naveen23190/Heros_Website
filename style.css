@@ -1,0 +1,685 @@
+/* Overall Selection Tag Starts Here */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* Overall Selection Tag Ends Here */
+/* Top Element Starts From Here */
+.Top #i4
+{
+    height: 40px;
+    width: 40px;
+    display: none;
+    
+}
+.Top #i4 img
+{
+    height:36px;
+    width: 36px;
+    margin-top: 2px;
+}
+.Top #i4 img:hover
+{
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: 3px solid transparent;
+    border-color:black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* Top ELements Ends Here */
+
+/* Round Element Starts Here */
+.round
+{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    background-color:white;
+    border-radius: 50px;
+    animation: 30s spin infinite;
+    box-shadow: 1px 1px 20px white;
+    border: 1px solid black;
+}
+/* Round Element Ends Here */
+
+ /* Side Bar Element Starts Here */
+.Side-bar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.032);
+    box-shadow: -10px 0 -10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+}
+.Side-bar #s1,#s2
+{
+    width: auto;
+    color:white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.Side-bar #s1:hover,.Side-bar #s2:hover
+{
+    background-color:black;
+    border: 2px solid tomato;
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+}
+.Side-bar #close
+{
+    height:40px;
+    width: 40px;
+}
+.Side-bar #close img
+{
+    background: none;
+    margin-left: 190px;
+    margin-top: 15px;
+    padding: 7px;
+    height: 30px;
+    width: 30px;
+}
+.Side-bar #close img:hover
+{
+    background-color:tomato;
+    border:2px solid white;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* Side ba Element Ends Here */
+
+/* Image Elements Starts From Here */
+.Ajith
+{
+    position: relative;
+}
+.A1
+{
+    width: 100%;
+    height: 100%;
+    top:-334px;
+    left: -15px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    border-radius: 20px;
+}
+.A1:hover
+{
+    opacity: 1;
+    filter: blur(0.5px); 
+}
+.A1 h1
+{
+    font-size: 40px;
+    color: white;
+}
+.A1 p
+{
+    font-size: 20px;
+    color: chartreuse;
+}
+.A2
+{
+    width: 100%;
+    height: 100%;
+    top:-334px;
+    left: -15px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    border-radius: 20px;
+    
+}
+.A2:hover
+{
+    opacity: 1;
+    filter: blur(0.5px); 
+}
+.A2 h1
+{
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+
+}
+.A2 p
+{
+    font-size: 20px;
+    color: chartreuse;
+}
+.A3
+{
+    width: 100%;
+    height: 100%;
+    top:-334px;
+    left: -15px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    border-radius: 20px;
+}
+.A3:hover
+{
+    opacity: 1;
+    filter: blur(0.5px); 
+}
+.A3 h1
+{
+    font-size: 40px;
+    color: white;
+    top: 120px;
+    position: absolute;
+
+}
+.A3 p
+{
+   font-size: 25px;
+   position: absolute;
+   top: 170px;
+   color: red;
+}
+.A3 p:nth-child(3)
+{
+    font-size: 25px;
+    position: absolute;
+    top: 230px;
+    color:black;
+}
+/* Image Elements Ends Here */
+
+/* Header Element Starts From Here */
+.Head-Content
+{
+    background: url(./Images/sl_063022_51250_12.jpg);
+    height: 75px;
+    width: 100%;
+    background-size:cover;
+    position: sticky;
+    top: 0;
+    z-index:1000;
+    border: 3px solid whitesmoke;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.Top
+{
+    position: relative;
+    display: flex;
+    height: 100%;
+    gap: 20px; 
+    margin-right: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Top #i3
+{
+    margin-right: auto;
+    color:goldenrod;
+    font-weight: bolder;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 10px goldenrod;
+}
+a
+{
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    padding: 2px;  
+}
+#i1:hover,#i2:hover,#i3:hover
+{  
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: 3px solid transparent;
+    border-color:black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* Header Element Ends Here */
+
+/* Content Starts From Here */
+.Content div
+{
+    height: 320px;
+    width: 320px;
+    margin: 15px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 0;    
+}
+.Content div::after,.Content div::before
+{
+    --angle:0deg;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: -3px;
+    left: -3px;
+    padding-top: 7px;
+    padding-left: 7px; 
+    border-radius: 20px; 
+    background-image: linear-gradient(var(--angle),transparent 90%,purple,gold);
+    animation: 7s round linear infinite;  
+}
+.Content div img
+{
+    height: 320px;
+    width: 320px;
+}
+.Content
+{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+.Main-Content
+{
+   background: url(./Images/pexels-elijahsad-3473569.jpg);
+   background-size: cover;
+   z-index: -100;
+}
+.Content img:hover
+{
+  cursor: pointer;
+  filter: blur(5px);
+}
+.Content img
+{
+    border-radius: 20px;
+    cursor: pointer;
+}
+p
+{
+    color: lightgreen;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+/* Content Element Ends Here */
+@property --angle
+{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits:false;
+}
+
+/* Plane Element Starts Here */
+.Plane img
+{
+    margin: 0;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    animation: 20s plane linear infinite;
+    z-index: 0;
+}
+.Plane img:hover
+{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+/* Plane Element Ends Here */
+
+/* Plane Animation Starts From Here */
+@keyframes plane {
+    0%
+    {
+        position: absolute;
+        top:40px;
+        left: 0%;
+        transform:scaleX(1); 
+    }
+    22%
+    {
+        position: absolute;
+        left: 22%;
+        top: 70px;
+        transform: scaleX(1);
+    }
+    38%
+    {
+        position: absolute;
+        left: 38%;
+        top: 70px;
+        transform: scaleX(1);
+    }
+    50%
+    {
+        position:absolute;
+        top: 40px;
+        left: 81%;        
+        transform: scaleX(1);
+    }
+    51%
+    {
+        position: absolute;
+        top: 40px;
+        left: 81%;
+        transform: scaleX(-1);
+        
+    }
+    52%
+    {
+        position: absolute;
+        top: 40px;
+        left: 80%;
+        transform: scaleX(-1);      
+    }
+    60%
+    {
+        position:absolute;
+        right: 38%;
+        top: 70px;
+        transform: scaleX(-1);
+    }
+    78%
+    {
+        position: absolute;
+        right: 78%;
+        top: 70px;
+        transform: scaleX(-1);
+    }
+    100%
+    {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        transform:scaleX(-1);
+       
+    }
+}
+/* Plane Animation Ends Here */
+
+/* Round Animation Starts Here */
+@keyframes round 
+{
+    0%
+    {
+        --angle:0deg;
+    }
+    100%
+    {
+        --angle:360deg;
+    }  
+}
+/* Round Animation Ends Here */
+
+/* Spin(Ball) Animation Starts From Here */
+@keyframes spin {
+    0%
+    {
+        height: 12px;
+        width: 12px;
+        background-color:white;
+        position: absolute;
+        top:75px;
+        left:0%;
+        box-shadow: 1px 1px 20px white;
+        
+    }
+    10%
+    {
+      height: 14px;
+      width: 14px;
+      background-color:yellow;
+      position: absolute;
+      top: 150px;
+      left: 99%;
+      box-shadow: 1px 1px 20px yellow;
+    }
+    20%
+    {
+        height: 16px;
+        width: 16px;
+        background-color: yellowgreen;
+        position: absolute;
+        top: 300px;
+        left: 0%;
+        box-shadow: 1px 1px 20px yellowgreen;
+    }
+    30%
+    {
+        height: 18px;
+        width: 18px;
+        background-color:lightgreen;
+        position: absolute;
+        top: 450px;
+        left: 98%;
+        box-shadow: 1px 1px 20px lightgreen;
+    }
+    40%
+    {
+        height: 20px;
+        width: 20px;
+        background-color:green;
+        position: absolute;
+        top:600px;
+        left: 0%;
+        box-shadow: 1px 1px 20px green;
+    }
+    50%
+    {
+        height: 22px;
+        width: 22px;
+        background-color: goldenrod;
+        position: absolute;
+        top: 750px;
+        left: 98%;
+        box-shadow: 1px 1px 20px goldenrod;
+    }
+    60%
+    {
+        height: 24px;
+        width: 24px;
+        background-color:orange;
+        position: absolute;
+        top: 900px;
+        left: 0%;
+        box-shadow: 1px 1px 20px orange;
+    }
+    70%
+    {
+        height: 26px;
+        width: 26px;
+        background-color: tomato;
+        position: absolute;
+        top: 1050px;
+        left: 98%;
+        box-shadow: 1px 1px 20px tomato;
+    }
+    80%
+    {
+        height:28px;
+        width:28px;
+        background-color: orangered;
+        position: absolute;
+        top: 1200px;
+        left: 0%;
+        box-shadow: 1px 1px 20px orangered;
+    }
+    90%
+    {
+        height: 30px;
+        width: 30px;
+        background-color: red;
+        position: absolute;
+        top: 1350px;
+        left:98%;
+        box-shadow: 1px 1px 20px red;
+    }
+    100%
+    {
+        height: 32px;
+        width: 32px;
+        background-color:black;
+        position: absolute;
+        top: 1500px;
+        left: 0%;
+        box-shadow: 1px 1px 20px black;
+    } 
+}
+/* Spin(Ball) Animation Ends Here */
+
+
+
+
+
+
+
+/* Responsive Design Starts From Here */
+@media (max-width:1430px)
+{
+    .Content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .Top #i4 img
+    {
+        display: none;
+    }
+}
+@media (max-width:1080px)
+{
+    .Content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .Top #i4 img
+    {
+        display: none;
+    }
+}
+@media (max-width:740px)
+{
+    .Content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .Top #i4 img
+    {
+        display: none;
+    }
+
+}
+@media (max-width:410px)
+{
+    .Content
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .Main-Content
+    {
+        margin: auto;
+    }
+    .Plane img
+    {
+        display: none;
+    }
+    .Content
+    {
+        margin-left: 25px;;
+    }
+    .round
+    {
+        display: none;
+    }
+    .Top #i1,#i2
+    {
+        display: none;
+    }
+    .Side-bar
+    {
+        width: 210px;
+        font-size: 20px;
+    }
+    .Side-bar a
+    {
+        font-size: 20px;
+    }
+    .Side-bar #close
+    {
+        height: 30px;
+        width: 30px;
+    }
+    .Side-bar #close img
+    {
+        
+        margin-top: 20px;
+        margin-left: 140px;
+        height: 25px;
+        width: 25px;
+    }
+    .Top #i4
+    {
+        display: block;
+    }
+    .Top #i4 img
+    {
+        display: block;
+    }
+    #SK h1
+    {
+        font-size: 35px;
+    }
+    .A2 h1
+    {
+        margin-left: 50px;
+    }
+}
+/* Responsive Design Ends Here */
