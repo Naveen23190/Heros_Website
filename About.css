@@ -1,3 +1,7 @@
+*
+{
+  background-color:lightcoral;
+}
 #mail
 {
   color: red;  
@@ -13,11 +17,6 @@ h1
   justify-content: center;
   margin-left: 15px;
 }
-*
-{
-  background-color: black;
-  color: white;
-}
 h3,h4
 {
   color: chartreuse;
@@ -28,7 +27,7 @@ h2
 }
 h3
 {
-  color: saddlebrown;
+   color:purple;
 }
 
 @media (max-width:410px) 
@@ -36,5 +35,14 @@ h3
    *
    {
     width: 100%;
+    background-color: black;
+   }
+   h1 
+   {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
    }
 }
