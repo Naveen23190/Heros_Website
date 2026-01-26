@@ -23,15 +23,13 @@ function Congrats()
 }
 function Refresh()
 {
-    const reset = document.querySelector(".Congratulations");
-    reset.textContent = "OOOPs!! Wrong Ball";
-    reset.style.fontSize = "35px";
-    reset.style.fontWeight = "bolder";
-    reset.style.color = "red";
-    reset.style.display = "flex";
+
     let a = localStorage.getItem("Myscore");
     alert(`Your Score is : ${a}`);
-
+    setTimeout(function() 
+     {
+        window.location.reload();
+     },1000)
 }
  
 
