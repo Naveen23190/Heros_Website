@@ -658,7 +658,7 @@ p
     }
     .round
     {
-        display: none;
+        display:none;
     }
     .Top #i1,#i2
     {
@@ -666,7 +666,7 @@ p
     }
     .Side-bar
     {
-        width: 210px;
+        width: 235px;
         font-size: 20px;
     }
     .Side-bar a
@@ -682,7 +682,7 @@ p
     {
         
         margin-top: 20px;
-        margin-left: 140px;
+        margin-left: 170px;
         height: 25px;
         width: 25px;
     }
