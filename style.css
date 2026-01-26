@@ -44,14 +44,13 @@ html
     position: relative;
     background-color:white;
     border-radius: 50px;
-    animation: 20s spin infinite;
+    animation: 7s spin infinite;
     box-shadow: 1px 1px 20px white;
     border: 1px solid black;
 }
 .round:hover
 {
     animation-play-state: paused;
-    color: white;
 }
 /* Round Element Ends Here */
 
@@ -237,7 +236,7 @@ html
     position: sticky;
     top: 0;
     z-index:1000;
-    border: 3px solid whitesmoke;
+    border: 3px solid deeppink;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -306,7 +305,7 @@ a
     padding-top: 7px;
     padding-left: 7px; 
     border-radius: 20px; 
-    background-image: linear-gradient(var(--angle),transparent 90%,purple,gold);
+    background-image: linear-gradient(var(--angle),transparent 90%,tomato,gold,green);
     animation: 10s round linear infinite;  
 }
 .Content div img
@@ -324,7 +323,7 @@ a
 }
 .Main-Content
 {
-   background: url(./Images/pexels-elijahsad-3473569.jpg);
+   background:linear-gradient(to top right,lightblue,white,lightblue,white,lightblue,white,lightblue);
    background-size: cover;
    z-index: -100;
 }
@@ -587,7 +586,10 @@ p
     } 
 }
 /* Spin(Ball) Animation Ends Here */
-
+#P1
+{
+    color:orangered;
+}
 
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
@@ -647,13 +649,19 @@ p
     .Main-Content
     {
         margin: auto;
+        margin-top: -10px;
     }
     .Plane img
     {
         display: none;
     }
+    .Head-Content
+    {
+        height: 65px;
+    }
     .Content
     {
+        margin-top: -25px;
         margin-left: 25px;;
     }
     .round
@@ -714,6 +722,10 @@ p
     #VJS h1
     {
         font-size: 30px;
+    }
+    #P1
+    {
+        font-weight: 20px;
     }
 }
 /* Responsive Design Ends Here */

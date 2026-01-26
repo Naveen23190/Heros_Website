@@ -11,11 +11,13 @@ function hideSidebar()
 function Congrats()
 {
    const congrats = document.querySelector(".Congratulations");
-   congrats.style.display = "flex";  
+   congrats.style.display = "flex"; 
+   const col = document.querySelector(".round");
    setTimeout(function() {
     congrats.style.display = "none"
    },1000);
 }
+
  
 
 
