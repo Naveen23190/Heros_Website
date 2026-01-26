@@ -8,8 +8,14 @@ function hideSidebar()
     const hideSidebar = document.querySelector(".Side-bar")
     hideSidebar.style.display = "none";
 }
-function reload()
+function Congrats()
 {
-    window.location.reload();
-    alert("Your Page Has Been Reloaded.....");
+   const congrats = document.querySelector(".Congratulations");
+   congrats.style.display = "flex";  
+   setTimeout(function() {
+    congrats.style.display = "none"
+   },1000);
 }
+
+
+
