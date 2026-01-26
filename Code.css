@@ -1,0 +1,35 @@
+html
+{
+   background-color:black;
+}
+h1
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.code
+{
+    color:lawngreen;
+}
+#u1,#u2
+{
+    margin-left: 20px;
+}
+#i1
+{
+    color: chocolate;
+}
+#i2
+{
+    color: deepskyblue;
+}
+#i3
+{
+    color: red;
+}
+h3
+{
+    color: green;
+}
