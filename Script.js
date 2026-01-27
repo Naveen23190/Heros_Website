@@ -16,7 +16,7 @@ function Congrats()
    const col = document.querySelector(".round");
    setTimeout(function() 
    {
-    congrats.style.display = "none"
+     congrats.style.display = "none"
    },1000);
    count++;
    console.log("Score is : ",count);
@@ -38,12 +38,11 @@ function Refresh()
       console.log("This is Else Block");
       console.log(`Score is :${count}`);
       alert(`Game Over Your Score is : ${count}`);
-
     }
     setTimeout(function () 
      {
         window.location.reload();
-     },10000)
+     },1000)
 }
 
 

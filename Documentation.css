@@ -37,3 +37,19 @@ li
     margin: 0;
     border: 0;
 }
+span
+{
+    color: red;
+}
+img
+{
+    width: 100%;
+}
+#L1
+{
+    color: orangered;
+}
+.Note h3
+{
+    color: white;
+}
