@@ -74,6 +74,17 @@ h3
 }
 img
 {
-    height: 98vh;
-    width: 98vh;
+    height: 400px;
+    width: 350px;
+    margin-left: 2px;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+#r1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
 }
