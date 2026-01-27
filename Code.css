@@ -9,7 +9,7 @@ h1
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 1px 1px 10px white;
+    text-shadow: 0.7px 0.7px 5px gold;
 }
 .code
 {
@@ -40,7 +40,9 @@ h1
 }
 h3
 {
-    color: green;
+    color:gold;
+    font-weight:bolder;
+    margin-left: -30px;
 }
 .img
 {

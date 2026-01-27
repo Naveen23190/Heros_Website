@@ -87,7 +87,7 @@ html
     justify-content: flex-start;
     backdrop-filter: blur(10px);
 }
-.Side-bar #s1,#s2,#s3
+.Side-bar #s1,#s2,#s3,#s4
 {
     width: auto;
     color:white;
@@ -95,7 +95,7 @@ html
     margin-left: 10px;
     margin-top: 20px;
 }
-.Side-bar #s1:hover,.Side-bar #s2:hover,.Side-bar #s3:hover
+.Side-bar #s1:hover,.Side-bar #s2:hover,.Side-bar #s3:hover,.Side-bar #s4:hover
 {
     background-color:black;
     border: 2px solid tomato;
