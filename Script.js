@@ -14,7 +14,8 @@ function Congrats()
    const congrats = document.querySelector(".Congratulations");
    congrats.style.display = "flex"; 
    const col = document.querySelector(".round");
-   setTimeout(function() {
+   setTimeout(function() 
+   {
     congrats.style.display = "none"
    },1000);
    count++;
@@ -23,15 +24,28 @@ function Congrats()
 }
 function Refresh()
 {
-
     let a = localStorage.getItem("Myscore");
-    alert(`Your Score is : ${a}`);
-    setTimeout(function() 
+    if(a>0)
+    {
+      console.log("This is If Block");
+      console.log(`Score is : ${a}`);
+      alert(`Game Over!! Your Score is : ${a}`);
+      localStorage.clear();
+    }
+    else
+    {
+      let count = 0; 
+      console.log("This is Else Block");
+      console.log(`Score is :${count}`);
+      alert(`Game Over Your Score is : ${count}`);
+
+    }
+    setTimeout(function () 
      {
         window.location.reload();
-     },1000)
+     },10000)
 }
- 
+
 
 
 

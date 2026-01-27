@@ -37,14 +37,14 @@ html
 /* Top ELements Ends Here */
 
 /* Round Element Starts Here */
-.round /*Ball Animation */   
+.round /*Colour Ball Animation */   
 {
     height: 10px;
     width: 10px;
     position: relative;
     background-color:white;
     border-radius: 50px;
-    animation: 15s spin infinite;
+    animation: 100s spin infinite;
     box-shadow: 1px 1px 20px white;
     border: 1px solid black;
 }
@@ -61,7 +61,7 @@ html
     position: relative;
     background-color:red;
     border-radius: 50px;
-    animation: 20s Reset infinite;
+    animation: 100s Reset infinite;
     box-shadow: 1px 1px 20px red;
     border: 1px solid black;
 }
@@ -338,7 +338,7 @@ a
 }
 .Main-Content
 {
-   background:linear-gradient(to top right,lightblue,white,lightblue,white,lightblue,white,lightblue);
+   background-color:black;
    background-size: cover;
    z-index: -100;
 }
@@ -375,7 +375,7 @@ p
     height: 150px;
     width: 250px;
     position: relative;
-    animation: 20s plane linear infinite;
+    animation: 10s plane linear infinite;
     z-index: 0;
 }
 .Plane img:hover
@@ -498,6 +498,10 @@ p
         left:0%;
         box-shadow: 1px 1px 20px white;
         
+    }
+    8%
+    {
+        background-color: white;
     }
     10%
     {
