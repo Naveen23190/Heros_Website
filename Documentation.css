@@ -63,3 +63,16 @@ video
 {
     border: 1px solid lawngreen;
 }
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:visited
+{
+   color: red;
+}
+#Deploy
+{
+    margin-top: 10px;
+}
