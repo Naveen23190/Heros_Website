@@ -44,7 +44,7 @@ html
     position: relative;
     background-color:white;
     border-radius: 50px;
-    animation: 100s spin infinite;
+    animation: 10s spin infinite;
     box-shadow: 1px 1px 20px white;
     border: 1px solid black;
 }
@@ -61,7 +61,7 @@ html
     position: relative;
     background-color:red;
     border-radius: 50px;
-    animation: 100s Reset infinite;
+    animation: 10s Reset infinite;
     box-shadow: 1px 1px 20px red;
     border: 1px solid black;
 }
@@ -814,10 +814,6 @@ p
     {
         font-size: 23px;
     }
-    .red
-    {
-        display: none;
-    }
 }
 /* Responsive Design Ends Here */
 
@@ -846,4 +842,12 @@ p
    border-left: none;
    border-right: none;
    box-shadow: 1px 1px 10px black inset;
+}
+#copy
+{
+    color: white;
+    text-shadow: 0.5px 0.5px 2px white;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }

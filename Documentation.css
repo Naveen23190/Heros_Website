@@ -23,9 +23,9 @@ li
 {
     color: red;
     border: 2px solid hotpink;
-    padding: 4px;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 0.5px 0.5px 7px hotpink inset ;
+    box-shadow: 0.5px 0.5px 7px hotpink inset;
 }
 .Note h3
 {
@@ -40,6 +40,7 @@ li
 span
 {
     color: red;
+    font-weight: bold;
 }
 img
 {
@@ -47,9 +48,18 @@ img
 }
 #L1
 {
-    color: orangered;
+    color:lawngreen;
 }
 .Note h3
 {
     color: white;
+}
+video
+{
+    width: 100%;
+    border: 1px solid white;
+}
+#v1
+{
+    border: 1px solid lawngreen;
 }
